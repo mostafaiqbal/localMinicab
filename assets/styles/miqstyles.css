@@ -1,0 +1,111 @@
+/* Miq Css - by Mostafa Iqbal */
+/* ***** BODY DEFAULT MARGING PADDING **** */
+html, body {
+    padding: 0;
+    margin: 0;
+}
+#logo {
+    margin-left: 15px;
+}
+.nav-link {
+    font-family: 'Allerta Stencil', sans-serif;
+    color:black!important;
+    font-weight: bold;
+}
+#hr01 {
+    width: 74%;
+    margin-top: -35px;
+    margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #hr01 {
+        display: none;
+    }
+}
+
+h1 {
+    color: rgb(8, 179, 142);
+    font: outline;
+    font-family: 'Spicy+Rice'!important, sans-serif;
+    display: inline;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        display: inline-block!important;
+              
+    }
+}
+
+#callbtn {
+    margin: 30px 0 10px 0;
+}
+.btn-info {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px;
+    font-weight: 80%;
+    background-color: #0bb3b3;
+}
+
+#bookbtn {
+    margin: 40px 0 0 8%;
+}
+
+#bookbtn .btn-info {
+    font-size: 30px;
+}
+
+#main {
+        padding:0px;
+        margin:70px 0 0 0;
+    }
+
+#mainImg {
+    width: 370px;
+    height: 200px;
+    margin-left: 15%;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    #mainImg {
+        margin-left: -8%;
+        text-align: center;
+                   
+    }
+}
+
+#mainText {
+    padding: 0px;
+    margin-left: -8%;
+    max-width: 400px;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    #mainText {
+       margin-left: 8%;
+       margin-top: 10%;
+        display: inline-block;
+              
+    }
+}
+
+#endhr {
+    margin-top: 6%;
+}
+
+#footerdiv {
+    background-color: whitesmoke;
+}
+
+footer {
+   
+   
+}
