@@ -9,10 +9,12 @@ html, body {
     width: 70px;
     height: 70px;
 }
+
 .nav-link {
     font-family: 'Allerta Stencil'!important;
     color:darkcyan!important;
     border-bottom: 1px darkcyan solid;
+
   
 }
 .nav-link:hover {
