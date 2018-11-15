@@ -34,7 +34,13 @@ h1 {
     white-space: nowrap;
     
 }
-
+h2 {
+    color: darkcyan;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 18%;
+    white-space: nowrap;
+}
 @media only screen and (max-width: 600px) {
     h1 {
         text-align: center;
@@ -58,6 +64,7 @@ h1 {
 
 #bookbtn {
     margin: 40px 0 0 8%;
+    display: none;
 }
 #bookbtn .btn-info a {
     color: white;
