@@ -36,6 +36,15 @@ h1 {
     white-space: nowrap;
     
 }
+
+@media only screen and (max-width: 800px) {
+    h1 {
+       display: inline-block!important;
+       text-align: left;
+       margin-left: -14px;
+    }
+}
+
 h2 {
     color: darkcyan;
     font-size: 14px;
@@ -43,13 +52,7 @@ h2 {
     margin-right: 18%;
     white-space: nowrap;
 }
-@media only screen and (max-width: 600px) {
-    h1 {
-        text-align: center;
-        display: inline-block!important;
-              
-    }
-}
+
 
 #callbtn {
     margin: 30px 0 10px 0;
@@ -57,6 +60,8 @@ h2 {
 #callbtn .btn-info a {
     color: white;
 }
+
+
 .btn-info {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 30px;
@@ -111,10 +116,30 @@ h2 {
     #mainText {
        margin-left: 2%;
        margin-top: 10%;
-        display: inline-block;
+       display: inline-block;
               
     }
 }
+
+
+#price {
+    margin:50px 0px 0 0px;
+    border: 1px lightgray groove;
+    padding: 15px 0 15px 0;
+    color: darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-size: 14px;  
+}
+#price ul li {
+    list-style-type: none;
+}
+
+h4 {
+    text-align: center; 
+    margin-bottom: 30px;
+}
+
+
 
 #endhr {
     margin-top: 6%;
@@ -131,6 +156,31 @@ footer {
 }
 
 footer a {
+    font-size: 12px;
     color: darkcyan;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
+
+/* Main Templa
+te Ends Here */
+
+/* Location Page Style */
+#locationsSection {
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .locations {
+       margin-left: 50px;
+    }
+}
+
+.locations {
+    color: darkcyan;
+}
+.locations:hover {
+    color:black;
+    text-decoration: none;
+}
+
