@@ -184,3 +184,8 @@ te Ends Here */
     text-decoration: none;
 }
 
+@media only screen and (max-width: 800px) {
+    .longh1{
+        white-space: normal;          
+    }
+}
